@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer), typeof(BaseAnimator))]
+[RequireComponent(typeof(Rigidbody2D), typeof(SpriteRenderer))]
 public class MoveForce : MonoBehaviour, IMove
 {
     [SerializeField]
